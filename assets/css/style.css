@@ -1,0 +1,50 @@
+h1 {
+    font-family: 'ZCOOL KuaiLe', cursive;
+    color: rgb(150, 51, 67);
+    font-size: 100px;
+}
+h2 {
+    font-family: 'Indie Flower', cursive;
+}
+
+p {
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+}
+form {
+    font-family: 'Source Code Pro', monospace;
+}
+    h1 {
+    font-family: 'ZCOOL KuaiLe', cursive;
+    color: rgb(150, 51, 67);
+    font-size: 40px;
+}
+h2 {
+    font-family: 'Indie Flower', cursive;
+    font-sieze: 30px;
+    padding-top: 5px;
+}
+
+p {
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+}
+form {
+    font-family: 'Source Code Pro', monospace;
+}
+
+.col-m-8 {
+font-family: 'ZCOOL QingKe HuangYou', cursive;
+font-size: 25px;
+padding-left: 20px;
+}
+
+
+
+
+
+
+
+/*font-family: 'ZCOOL KuaiLe', cursive;
+font-family: 'ZCOOL QingKe HuangYou', cursive;
+font-family: 'Indie Flower', cursive;
+font-family: 'Source Code Pro', monospace;
+*/
