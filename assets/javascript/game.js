@@ -1,4 +1,4 @@
-var letters = ["a", "h", "p", "k"];
+var letters = ["d", "h", "p", "k"];
 var playerGuess = [];
 var jsGuess  = null;
 var attempts = 0;
@@ -13,14 +13,15 @@ var jsGuess = function() {
 letterToGuess = letters[Math.floor(Math.random() * letters.length)];
 }
 var updateGuessesSoFar = function() {
-document.getElementById("payerGuess").innerHTML = playerGuess.join(", ");
+document.getElementById("playerGuess").innerHTML = playerGuess.join(", ");
 }
    
 var reset = function() {
     attempts = 0;
     guessLeft = 9;
-    playerGuess = [];
     jsGuess();
+    updateGuessesSoFar();
+    usedArray = [];
 }
 
 
@@ -40,7 +41,7 @@ attempts++;
 guessLeft--;
 }
 if (guessLeft < 0) {
-reset();
+    reset();
 }
 
 if (usedArray.indexOf(playerGuess) >= 0) {
